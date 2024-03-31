@@ -208,7 +208,19 @@ section.especiliadades .flex {
     transition: .2s;
     background-size: cover;
     background-position: center;
+    width: 500px; /* Definindo a largura fixa de cada caixa */
+    margin-right: 2px; /* Adicione margem à direita */
+    margin-left: 2px; /* Adicione margem à esquerda */
 }
+
+.especiliadades .especialidades-box:first-child {
+    margin-left: 0; /* Remove a margem à esquerda da primeira caixa */
+}
+
+.especiliadades .especialidades-box:last-child {
+    margin-right: 0; /* Remove a margem à direita da última caixa */
+}
+
 .especiliadades .sneakers {
     background-image: url('imagens/desfoquetenis.png');
 }
