@@ -197,7 +197,7 @@ section.especiliadades {
 }
 
 section.especiliadades .flex {
-    gap: 60px;
+    gap: 70px;
 }
 
 .especiliadades .especialidades-box {
@@ -206,8 +206,25 @@ section.especiliadades .flex {
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
+    background-size: cover;
+    background-position: center;
+}
+.especiliadades .sneakers {
+    background-image: url('imagens/desfoquetenis.png');
 }
 
+.especiliadades .roupas {
+    background-image: url('imagens/desfoqueroupa.png');
+}
+
+.especiliadades .outros {
+    background-image: url('imagens/desfoquemala.png');
+}
+
+.especiliadades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
 .especiliadades .especialidades-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #ffffff78;
